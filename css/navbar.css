@@ -1,0 +1,16 @@
+button.btn.btn-primary {
+    border-radius: 200px;
+    background-color: #ED008C;
+    border-color: #ED008C;
+}
+
+.navleft{
+  padding-left: 20%;
+}
+.navright{
+  padding-right: 15%; 
+}
+
+.taille_connecte{
+	width: 120px;
+}
