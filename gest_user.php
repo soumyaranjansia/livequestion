@@ -4,7 +4,7 @@ $co = connexionBdd();
 $reponse = $co->query("SELECT * FROM utilisateurs");
 
 ?>
-
+<h2>Users</h2>
 <table class="tab">
     <tr>
         <td class="titre">Avatar</td>
@@ -32,7 +32,7 @@ $reponse = $co->query("SELECT * FROM utilisateurs");
     }
         ?>
 </table>
-<table>
+<table class="modif">
     <tr>
         <td class="titre">User a modifié :</td>
         <td class="titre">Modifier le role</td>

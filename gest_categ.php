@@ -3,7 +3,7 @@ $co = connexionBdd();
 $ReponseCateg = $co->query("SELECT * FROM categorie");
 
 ?>
-
+    <h2>Categorie</h2>
     <table class="tab">
         <tr>
             <td class="titre">ID Categorie</td>
@@ -21,7 +21,7 @@ $ReponseCateg = $co->query("SELECT * FROM categorie");
         $ReponseCateg->closeCursor();
         ?>
     </table>
-    <table>
+    <table class="modif">
         <tr>
             <td class="titre">Categorie a ajouter :</td>
         </tr>

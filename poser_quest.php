@@ -1,5 +1,5 @@
 <p>
-    Poser vôtre question :
+    Posez vôtre question :
 </p>
 <form action="question.php" method="post">
     <select class="btn btn-outline-secondary btn-sm" name="catId">

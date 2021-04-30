@@ -1,12 +1,40 @@
+h2{
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 25px;
+}
+
 .tab{
     text-align: center;
     border: solid;
+    margin-left: 10%;
 }
-
 .tab .titre{
     border: solid black;
 }
-
 .tab td{
     width: 130px;
+}
+
+
+.modif {
+	text-align: center;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    margin-left: 25%;
+}
+
+
+.quest{
+    text-align: center;
+    margin-left: 10%;
+}
+
+.black {
+    background-color: #1B2D33;
+    float: right; 
+    color: #1B2D33;
+    padding-left: 25%;
+    padding-bottom: 100%;
+
 }

@@ -1,3 +1,4 @@
+<h2>Question</h2>
 <?php
 $co = connexionBdd();
 $Quest = $co->query("SELECT * FROM question LEFT JOIN utilisateurs ON question.QuestAutorId = utilisateurs.UserId LEFT JOIN categorie ON question.QuestCatId = categorie.CatId ORDER BY QuestCreaDate DESC");
@@ -8,7 +9,8 @@ while ($listeQuest = $Quest->fetch())
     $Rep->execute();
     $count = $Rep->rowCount();
     ?>
-    <table>
+    <table class="quest">
+
         <tr>
             <td><?php echo $listeQuest['UserAva'];?></td>
             <td><?php echo $listeQuest['UserName'];?></td>
