@@ -1,0 +1,40 @@
+body{
+	background-color: #1B2D33;
+}
+input{
+	border: none;
+  	border-bottom: 2px solid #ED008C;
+  	padding: 10px 16px;
+  	font-size: 16px;
+}
+p{
+	padding-top: 5%;
+}
+.box{
+	text-align: center;
+	background-color: white;
+	margin-top: 5%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	margin-left: 35%;
+	margin-right: 35%;
+	border-radius: 2%;
+}
+.box button{
+	border-radius: 200px;
+	background-color: #ED008C; 
+ 	border: none;
+  	color: white;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+	padding: 16px 45px;
+}
+.box button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.form-element{
+	padding-top: 3%;
+	padding-bottom: 4%;
+}

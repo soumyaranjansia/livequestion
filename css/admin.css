@@ -1,0 +1,12 @@
+.tab{
+    text-align: center;
+    border: solid;
+}
+
+.tab .titre{
+    border: solid black;
+}
+
+.tab td{
+    width: 130px;
+}

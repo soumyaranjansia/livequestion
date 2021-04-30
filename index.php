@@ -67,7 +67,7 @@
 							</ul>
 						</li>
 					</ul>
-					<button class="btn btn-primary taille_connecte" type="submit">Se connecter</button>
+					<a href="Log-in.php"><button class="btn btn-primary taille_connecte">Se connecter</button></a>
 				</div>
 			</div>
 		</nav>
