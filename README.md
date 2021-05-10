@@ -12,7 +12,7 @@ Periode de réalisation : Fin Mars 2021 au 30 Avril 2021.
 Installation : récupérer tous les fichiers dans un dossier à placer sur un serveur dans le dossier "www" (WAMP, LAMP, etc...),
 BDD:
 
-Importer la base "test.sql" présente dans le dossier, vérifier le fichier 'Config.php', 
+Importer la base "LiveQuestion.sql" présente dans le dossier, vérifier le fichier 'Config.php', 
 si vous utilisez Wamp pass="", si vous utilisez µwamp pass"root"
 
 Connexion:
