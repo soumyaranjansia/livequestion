@@ -1,3 +1,9 @@
+//By using session , all are can't access admin panel except you , so you have to set the session as e.g-"adminxcvxvx12121iu" or as per your requirement, while login is success
+//then automatically set the session to above , it will work perfectly.
+<?php if(!isset($_SESSION['adminxcvxvx12121iu'])){
+header("location:index.php");}
+?>
+
 <!doctype html>
 <html lang="fr">
 <head>
